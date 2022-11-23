@@ -54,13 +54,21 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 450px;
+    width: 200px;
 }
 .ComeSoonh1{
     text-align: center;
 }
 .ComeSoonh2{
     text-align: center;
+}
+.ComeSoonHomeTab{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff7998;
+    padding: 5px 10px;
+    border-radius:10px
 }
 /*Phone Media Query*/
 @media (max-width: 480px) {
