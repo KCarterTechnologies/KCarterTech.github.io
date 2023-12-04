@@ -1,4 +1,10 @@
-/*Import*/
+/* Reset */
+body, h1, h2, h3, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Import */
 @font-face {
     font-family: "BadScript";
     src: url("../badscript-regular-webfont.eot") format("eot");
@@ -6,12 +12,13 @@
     url("../badscript-regular-webfont.otf") format("opentype"),
     url("../badscript-regular-webfont.svg") format("svg");
 }
+
 @font-face {
     font-family: "Hanken";
     src: url("../HankenFont/hanken-light-webfont.eot") format("eot");
     src: url("../HankenFont/hanken-light-webfont.woff") format("woff"),
     url("../HankenFont/hanken-light-webfont.svg") format("svg");
-}
+} /* Add this closing brace */
 /*Element Styling*/
 body{
     font-family: 'BadScript', sans-serif;
